@@ -1,3 +1,6 @@
+/* Orange: #e67e22; */
+
+
 /* -------------------------------------------------------------- */
 /* BASIC SETUP */
 /* -------------------------------------------------------------- */
@@ -42,7 +45,8 @@ h1 {
 
 /* ----------- BUTTONS ---------------- */
 
-.btn:link, .btn:visited {
+.btn:link, 
+.btn:visited {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -51,14 +55,16 @@ h1 {
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-.btn-full:link, .btn-full:visited {
+.btn-full:link, 
+.btn-full:visited {
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
     margin-right: 15px;
 }
 
-.btn-ghost:link, .btn-ghost:visited {
+.btn-ghost:link, 
+.btn-ghost:visited {
     border: 1px solid #e67e22;
     color: #e67e22;
 }
@@ -73,7 +79,8 @@ h1 {
     
 }
 
-.btn-ghost:hover, .btn-ghost:active {
+.btn-ghost:hover, 
+.btn-ghost:active {
     border: 1px solid #bf6516;
     color: #fff;
 }
@@ -116,9 +123,17 @@ header {
     margin-left: 40px;
 }
 
-.main-nav li a:link, .main-nav li a:visited {
+.main-nav li a:link, 
+.main-nav li a:visited {
+    padding: 8px 0;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.main-nav li a:hover, 
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
 }

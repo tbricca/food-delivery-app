@@ -270,6 +270,10 @@ header {
     margin-bottom: 50px;
 }
 
+.works-step: :last-of-type {
+    margin-bottom: 80px;
+}
+
 .works-step div {
     color: #e67e22;
     border: 2px solid #e67e22;
@@ -282,5 +286,10 @@ header {
     float: left;
     font-size: 150%;
     margin-right: 25px;
+}
 
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }

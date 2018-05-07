@@ -306,3 +306,18 @@ header {
     width: auto;
     margin-right: 10px;
 }
+
+/* -------------------------------------------------------------- */
+/* CITIES */
+/* -------------------------------------------------------------- */
+
+.box img {
+    
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}

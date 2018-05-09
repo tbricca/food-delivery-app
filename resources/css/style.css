@@ -417,6 +417,9 @@ cite img {
     padding: 15px;
     border-bottom: 1px solid #e8e8e8;
 }
+.plan-box div:last-child {
+    text-align: center;
+}
 
 .plan-price {
     font-size: 300%;
@@ -434,9 +437,9 @@ cite img {
     font-size: 80%;
 }
 
-/* .plan-box ul {
+.plan-box ul {
     list-style: none;
-} */
+}
 
 .plan-box ul li {
     padding: 5px 0;

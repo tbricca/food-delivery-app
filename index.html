@@ -339,10 +339,32 @@
             <form action="#" method="post" class="contact-form">
                 <div class="row">
                     <div class="col span-1-of-3">
-
+                        <label>Name</label>
                     </div>
                     <div class="col span-2-of-3">
-
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="find-us">
+                            <option value="friends">Friends</option>
+                            <option value="google">Google Search</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="yelp">Yelp</option>
+                            <option value="other">Other</option>
+                        </select>
                     </div>
                 </div>
             </form>

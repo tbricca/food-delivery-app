@@ -501,7 +501,12 @@ footer {
 
 }
 
-.social-icons {
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
     list-style: none;
     float: right;
 }
@@ -515,6 +520,13 @@ footer {
 .footer-nav li:last-child, 
 .social-links li:last-child {
     margin-right: 0;
-
 }
 
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+}
